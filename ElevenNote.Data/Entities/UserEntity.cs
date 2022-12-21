@@ -4,8 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ElevenNote.Data.Entities
-{
+
     public class UserEntity
     {
         [Key]
@@ -27,4 +26,3 @@ namespace ElevenNote.Data.Entities
         [Required]
         public DateTime DateCreated { get; set; }
     }
-}
